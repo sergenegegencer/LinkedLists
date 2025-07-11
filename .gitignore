@@ -1,0 +1,22 @@
+# Build Klasorleri
+**/x64/
+**/Debug/
+**/Release/
+
+# VS gecici dosyalari
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sdf
+*.opensdf
+
+# Derleme ciktilari
+*.obj
+*.exe
+*.pdb
+*.log
+*.ilk
+*.cache
+*.ipch
+*.vc.db
