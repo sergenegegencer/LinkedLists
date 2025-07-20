@@ -32,7 +32,7 @@ LinkedLists/
 ## How to Run
 
 1. Clone the repository:
-   git clone https://github.com/yourusername/LinkedLists.git
+   git clone https://github.com/sergenegegencer/LinkedLists.git
 
 2. Open `LinkedLists.sln` in Visual Studio.
 
