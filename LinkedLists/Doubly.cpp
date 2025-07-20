@@ -106,6 +106,7 @@ void Doubly::delFromHead() {
 	if (head == nullptr) throw EmptyListException("Liste boþ!");
 	if (head->next == nullptr) {
 		delete head;
+		head = nullptr;
 		length--;
 		return;
 	}
@@ -120,6 +121,7 @@ void Doubly::delFromFoot() {
 	if (head == nullptr) throw EmptyListException("Liste boþ!");
 	if (head->next == nullptr) {
 		delete head;
+		head = nullptr;
 		length--;
 		return;
 	}

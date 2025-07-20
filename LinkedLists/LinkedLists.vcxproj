@@ -127,16 +127,21 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Circular.cpp" />
     <ClCompile Include="Doubly.cpp" />
     <ClCompile Include="EmptyListException.cpp" />
     <ClCompile Include="IndexOverflowException.cpp" />
     <ClCompile Include="Main.cpp" />
+    <ClCompile Include="Menu.cpp" />
     <ClCompile Include="Singly.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Circular.h" />
     <ClInclude Include="Doubly.h" />
     <ClInclude Include="EmptyListException.h" />
     <ClInclude Include="IndexOverflowException.h" />
+    <ClInclude Include="LinkedListOperationEnums.h" />
+    <ClInclude Include="Menu.h" />
     <ClInclude Include="Singly.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

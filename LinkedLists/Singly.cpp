@@ -18,7 +18,7 @@ int Singly::findLength() {
 	temp = head;
 
 	while (temp != nullptr) {
-		length++;
+		lengthfunc++;
 		temp = temp->next;
 	}
 
